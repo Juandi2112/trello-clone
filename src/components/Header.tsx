@@ -10,7 +10,7 @@ export default async function Header() {
     <header className="bg-gray-200 p-4 px-8">
       <div className="flex justify-between items-center">
         <Link href="/" className="logo">
-          Trello
+          Tasks Manager
         </Link>
         <div>
           {session && (
